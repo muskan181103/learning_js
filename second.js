@@ -15,12 +15,24 @@
     
 // }
 
-let num = 1
+// let num = 1
 
- while (num<=15){
-    if (num%2==0){
-       console.log(num); 
-    }
+//  while (num<=15){
+//     if (num%2==0){
+//        console.log(num); 
+//     }
     
-    num++
- }
+//     num++
+//  }
+
+let num = 20
+let sum = 0
+
+while(num >= 1){
+   if(num % 2 !== 0){
+      sum =num +sum;
+      console.log(sum);
+      
+   }
+   num--;
+}
